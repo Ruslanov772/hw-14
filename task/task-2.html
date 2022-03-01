@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+    let allNamePersonal = [
+      'Misha',
+      'Andrey',
+      'Sasha',
+      'Oleg',
+      'Danil',
+      'Dima',
+      'Artur',
+      'Ivan',
+      'Slava',
+      'Alisher',
+      'Amiran',
+    ]
+
+    for (let user of allNamePersonal) {
+        if (user === 'Ivan' || user === 'Oleg') {
+            console.log(`${user} к сожалению вас не приглосили`)
+        } else {
+            console.log(`${user} приглашаем вас в гости`)
+        }
+    }
+  </script>
+</body>
+</html>
